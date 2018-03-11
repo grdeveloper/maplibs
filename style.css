@@ -1,0 +1,21 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+#map{
+    height: calc(100% - 200px);
+    width: 100%;
+}
+
+#pin{
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+}
